@@ -1,0 +1,63 @@
+{
+  "name": "dibbs-hera",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@onflow/fcl": "^0.0.77",
+    "@onflow/types": "^0.0.4",
+    "faker": "^5.5.3",
+    "pleasejs": "^0.4.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@apollo/client": "^3.3.3",
+    "@fullpage/react-fullpage": "latest",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "latest",
+    "@material-ui/styles": "latest",
+    "axios": "^0.21.0",
+    "bignumber": "^1.1.0",
+    "bootstrap": "^4.5.3",
+    "connected-react-router": "^6.8.0",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "graphql": "^15.4.0",
+    "immutable": "^4.0.0-rc.12",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "latest",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^16.13.1",
+    "react-loading": "^2.0.3",
+    "react-redux": "latest",
+    "react-router": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "3.4.3",
+    "react-toastify": "^6.0.9",
+    "styled-components": "^5.2.0"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_BUILD_MODE=\"development\" react-scripts start",
+    "start-prod": "cross-env REACT_APP_BUILD_MODE=\"production\" react-scripts start",
+    "stage": "cross-env REACT_APP_BUILD_MODE=\"development\" react-scripts build",
+    "build": "cross-env REACT_APP_BUILD_MODE=\"production\" react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
